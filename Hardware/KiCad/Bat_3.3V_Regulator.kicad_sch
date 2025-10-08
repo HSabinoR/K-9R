@@ -1,0 +1,6656 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "23375a9e-9067-496a-96cd-78baab4b637c")
+	(paper "A4")
+	(title_block
+		(title "3.3V Regulator")
+	)
+	(lib_symbols
+		(symbol "SamacSys_Parts:12065D475MAT2A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "12065D475MAT2A"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC3216X229N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "General Purpose Dielectric for Ceramic Capacitors  EIA Class II Dielectric  Temperature variation of capacitance is within +/-15% from -55C to +85C  Well suited for decoupling and filtering applications  Available in High Capacitance values (up to 100uF)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.29"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "581-12065D475MAT2A"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-AVX/12065D475MAT2A?qs=ZBeOGGPQgEE6l2JlGqsrwg%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Kyocera AVX"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "12065D475MAT2A"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "12065D475MAT2A_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:AC0603KPX7R9BB473"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AC0603KPX7R9BB473"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC1608X90N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-AC_NP0X7RX7S_6.3V-to-2KV_19.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.047uF X7R 0603 10% AEC-Q200"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "603-AC603KPX7R9BB473"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/AC0603KPX7R9BB473?qs=A6eO%252BMLsxmQR%252BGuuoVGLIQ%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "YAGEO"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AC0603KPX7R9BB473"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AC0603KPX7R9BB473_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:C0603C103K9RACTU"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "C0603C103K9RACTU"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "C0603"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Comm X7R, Ceramic, 0.01 uF, 10%, 6.3 VDC, 15.75 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 5 % , 10 GOhms, 4.8 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 80"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.87"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-C0603C103K9R"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C103K9RACTU?qs=r%2FVmNO8Tjq6U7vsVOlbauA%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "C0603C103K9RACTU"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "C0603C103K9RACTU_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:CRCW0805100KJNEA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CRCW0805100KJNEA"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC2012X50N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD 1/8watt 100Kohms 200ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.5"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "71-CRCW0805J-100K-E3"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100KJNEA?qs=LOX6nxTstiZZKnHXqjj9tA%3D%3D"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CRCW0805100KJNEA"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW0805100KJNEA_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:GRM188R71A474JA61J"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM188R71A474JA61J"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC1608X90N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71A474JA61-01A.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Chip Capacitor value 474"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM188R71A474JA61J"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "GRM188R71A474JA61J_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:GRM21BR61A476ME15L"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM21BR61A476ME15L"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC2012X145N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01A.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 47uF 10volts *Derate Voltage/Temp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM21BR61A476ME5L"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "GRM21BR61A476ME15L_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:IHLP2525BDER100M01"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 16.51 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "IHLP2525BDER100M01"
+				(at 16.51 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "INDPM6965X240N"
+				(at 16.51 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA11/2254165.pdf"
+				(at 16.51 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Vishay IHLP2525BD-01 Series Shielded Wire-wound SMD Inductor 10 uH +/-20% 7A Idc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.4"
+				(at 16.51 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "70-IHLP2525BDER100M1"
+				(at 16.51 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/IHLP2525BDER100M01?qs=Ii3MhEF6M57xUYSRDLsUoA%3D%3D"
+				(at 16.51 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 16.51 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "IHLP2525BDER100M01"
+				(at 16.51 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "IHLP2525BDER100M01_1_1"
+				(arc
+					(start 5.08 0)
+					(mid 6.35 1.219)
+					(end 7.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 8.89 1.219)
+					(end 10.16 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 0)
+					(mid 11.43 1.219)
+					(end 12.7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 0)
+					(mid 13.97 1.219)
+					(end 15.24 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:KR_EELP41.22-Q1S1-36-A8J8-020-R18"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "KR_EELP41.22-Q1S1-36-A8J8-020-R18"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "KREELP4122Q1S136A8J8020R18"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://look.ams-osram.com/m/7eda7e8e2ca21691/original/KR-EELP41-22.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Red 624nm LED Indication - Discrete 1.95V 0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.5"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "720-P412Q1S136A8J802"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KR-EELP41.22-Q1S1-36-A8J8-020-R18?qs=ZcfC38r4PouTxNZSRl%252Bn6g%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ams OSRAM"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "KR EELP41.22-Q1S1-36-A8J8-020-R18"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "KR_EELP41.22-Q1S1-36-A8J8-020-R18_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:LM76003RNPR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 36.83 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LM76003RNPR"
+				(at 36.83 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LM76003RNPR"
+				(at 36.83 -87.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/LM76003"
+				(at 36.83 -187.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.5V to 60V, 3.5A Synchronous Step-Down Voltage Converter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.8"
+				(at 36.83 -387.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-LM76003RNPR"
+				(at 36.83 -487.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM76003RNPR?qs=j%252B1pi9TdxUZmZBWKnG1O7Q%3D%3D"
+				(at 36.83 -587.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 36.83 -687.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LM76003RNPR"
+				(at 36.83 -787.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LM76003RNPR_1_1"
+				(rectangle
+					(start 5.08 10.16)
+					(end 35.56 -38.1)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "SW_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "SW_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "SW_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "SW_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "SW_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "BIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "RT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "SS/TRK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 270)
+					(length 5.08)
+					(name "DAP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -43.18 90)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 15.24 270)
+					(length 5.08)
+					(name "NC_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -43.18 90)
+					(length 5.08)
+					(name "AGND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 15.24 270)
+					(length 5.08)
+					(name "NC_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -43.18 90)
+					(length 5.08)
+					(name "AGND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 15.24 270)
+					(length 5.08)
+					(name "NC_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -43.18 90)
+					(length 5.08)
+					(name "AGND_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 15.24 270)
+					(length 5.08)
+					(name "NC_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 0 180)
+					(length 5.08)
+					(name "PGND_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -2.54 180)
+					(length 5.08)
+					(name "PGND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -5.08 180)
+					(length 5.08)
+					(name "PGND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -7.62 180)
+					(length 5.08)
+					(name "NC_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -10.16 180)
+					(length 5.08)
+					(name "PVIN_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -12.7 180)
+					(length 5.08)
+					(name "PVIN_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -15.24 180)
+					(length 5.08)
+					(name "PVIN_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -17.78 180)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -20.32 180)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -22.86 180)
+					(length 5.08)
+					(name "SYNC/MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -25.4 180)
+					(length 5.08)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:LMK107B7105KA-T"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LMK107B7105KA-T"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC1608X90N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=LMK107B7105KA-T%20%20&u=M"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Taiyo Yuden LMK107B7105KA-T 1uF Multilayer Ceramic Capacitor MLCC 10V dc +/-10% Tolerance SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "963-LMK107B7105KA-T"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/LMK107B7105KA-T?qs=PzICbMaShUcSYTxLDnqe3A%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TAIYO YUDEN"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LMK107B7105KA-T"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LMK107B7105KA-T_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:MCU08050C3300FP500"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MCU08050C3300FP500"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC2012X55N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 330 OHM 1% 1/5W 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "594-MCU08050C3300FP5"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCU08050C3300FP500?qs=hjSuqQECij%252Bru8%252BZTqcyAw%3D%3D"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MCU08050C3300FP500"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MCU08050C3300FP500_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:TNPW040243K7BEED"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TNPW040243K7BEED"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1005X40N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.arrow.com/en/products/tnpw040243k7beed/vishay?region=nac"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Res Thin Film 0402 43.7K Ohm 0.1% 0.063W(1/16W) +/-25ppm/C Sulfur Resistant Pad SMD Automotive Medical T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.4"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "71-TNPW040243K7BEED"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/TNPW040243K7BEED?qs=FzhAKWsHbnC1tqeS1bvdEg%3D%3D"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TNPW040243K7BEED"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TNPW040243K7BEED_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Place close to pin"
+		(exclude_from_sim no)
+		(at 210.82 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4bc7cf1-5161-4982-a32d-ca50b1125cf6")
+	)
+	(junction
+		(at 74.93 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fba1d46-6309-4331-b4c9-affff416a83b")
+	)
+	(junction
+		(at 208.28 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cd17c84-f490-48e8-bebe-3fa3212aec6d")
+	)
+	(junction
+		(at 121.92 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e4cc9da-bff2-4ff3-9178-a45ef9829883")
+	)
+	(junction
+		(at 121.92 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30c34f82-fd91-44d5-81e9-9cf3bcfd3c39")
+	)
+	(junction
+		(at 95.25 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "330ddaff-b7a0-4b3c-a74a-4b86972d41c4")
+	)
+	(junction
+		(at 118.11 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36970a37-260b-44aa-b1be-f8979108136c")
+	)
+	(junction
+		(at 121.92 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ea1f11e-76f1-4a02-bf25-1aa0fd56d409")
+	)
+	(junction
+		(at 144.78 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "599d8f16-5cbe-463e-93c3-f15167087d69")
+	)
+	(junction
+		(at 179.07 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c398002-e97d-4faf-a5bb-8b74d2557073")
+	)
+	(junction
+		(at 68.58 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ecfc22f-25f7-4a0d-8f39-e8dad885a994")
+	)
+	(junction
+		(at 121.92 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76a7dbc9-6bdb-43b1-a332-a562d9b44cb7")
+	)
+	(junction
+		(at 81.28 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "886571ac-53e7-4be6-b3cc-694f633829d9")
+	)
+	(junction
+		(at 121.92 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8943839f-07a3-40bd-84e3-8f1b4ca9fb74")
+	)
+	(junction
+		(at 220.98 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89a75ca4-03f9-4e8c-bfec-287575fc8bd2")
+	)
+	(junction
+		(at 167.64 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e40948e-130b-4d1f-9606-41ff7d07ba16")
+	)
+	(junction
+		(at 166.37 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a33b48d2-68de-470e-a359-d7ea02754213")
+	)
+	(junction
+		(at 88.9 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3e4e0c4-e83e-4209-9b1b-60363f204ca2")
+	)
+	(junction
+		(at 208.28 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad3d8ac6-9887-4b20-8248-fdb870abcdb1")
+	)
+	(junction
+		(at 81.28 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7c29791-ba1b-4522-95a1-f61076acaeee")
+	)
+	(junction
+		(at 82.55 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdd1d341-5deb-4df4-b927-4542270f2e33")
+	)
+	(junction
+		(at 88.9 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbff841d-e203-4614-a913-2632ff82d714")
+	)
+	(junction
+		(at 95.25 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd6ad1fb-7250-479f-a6fc-4499f5c89dfa")
+	)
+	(junction
+		(at 167.64 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb22ee91-040e-4267-9ec3-29ee12ee43a5")
+	)
+	(no_connect
+		(at 124.46 95.25)
+		(uuid "169d3bd7-70d2-4164-81be-46a916bf2aee")
+	)
+	(no_connect
+		(at 144.78 57.15)
+		(uuid "3209289a-2feb-4601-af6d-cbd3564ace63")
+	)
+	(no_connect
+		(at 124.46 87.63)
+		(uuid "47aa3867-08ad-4ee8-bd06-3112267767f8")
+	)
+	(no_connect
+		(at 165.1 90.17)
+		(uuid "4c0a43a1-b832-4df7-a8dc-7ad08edb61e3")
+	)
+	(no_connect
+		(at 165.1 80.01)
+		(uuid "7e697801-c0b7-4d89-b678-efb4ab2e40f8")
+	)
+	(no_connect
+		(at 165.1 97.79)
+		(uuid "91a0f931-2c73-4d21-b850-6efecad47bcd")
+	)
+	(no_connect
+		(at 149.86 57.15)
+		(uuid "9d04e5b2-42ce-454d-96d6-2bf7b948370d")
+	)
+	(no_connect
+		(at 124.46 97.79)
+		(uuid "b1db0b5d-5444-48f0-aae4-2414d02620d7")
+	)
+	(no_connect
+		(at 147.32 57.15)
+		(uuid "b468016e-18a5-4111-a258-5302be3d3107")
+	)
+	(no_connect
+		(at 142.24 57.15)
+		(uuid "c43f5d7e-119c-49ad-8267-2d2de6ce9148")
+	)
+	(wire
+		(pts
+			(xy 74.93 72.39) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d6c62e-8063-4a43-9e83-a58d88acc64e")
+	)
+	(wire
+		(pts
+			(xy 167.64 77.47) (xy 181.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01521f59-9994-4a0a-9ffc-3c8578b72558")
+	)
+	(wire
+		(pts
+			(xy 121.92 97.79) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0158d517-236d-4c91-a472-270e0ef3c96d")
+	)
+	(wire
+		(pts
+			(xy 81.28 72.39) (xy 82.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d6fab5-9338-4a23-808a-73382d0e4ba4")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 165.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036be798-1a94-44b6-8f17-ad7961ebddde")
+	)
+	(wire
+		(pts
+			(xy 68.58 52.07) (xy 68.58 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06329fff-7fe4-446e-b80f-063cebf46ab5")
+	)
+	(wire
+		(pts
+			(xy 68.58 35.56) (xy 68.58 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08faab8f-9976-41e3-919f-d49a9f47db8a")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 121.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0964ae46-fdf4-463b-8789-efa0ec57457a")
+	)
+	(wire
+		(pts
+			(xy 121.92 110.49) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f37a274-4396-4b3c-b3ee-14adaf978170")
+	)
+	(wire
+		(pts
+			(xy 165.1 74.93) (xy 167.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c501b84-eafe-4cac-907e-68faa19a3420")
+	)
+	(wire
+		(pts
+			(xy 82.55 72.39) (xy 88.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7a0e24-41dd-4013-9c17-f796bde5b49c")
+	)
+	(wire
+		(pts
+			(xy 208.28 86.36) (xy 208.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21635634-5455-41ab-ba08-a89ce8b08bc2")
+	)
+	(wire
+		(pts
+			(xy 118.11 73.66) (xy 118.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f12c89-db85-4799-9e44-7c509bbc7404")
+	)
+	(wire
+		(pts
+			(xy 121.92 74.93) (xy 124.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244b1928-6e94-4a3b-90e6-51e1bcce34bf")
+	)
+	(wire
+		(pts
+			(xy 220.98 67.31) (xy 220.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2995fd00-18c6-40e2-be3a-8da90461db81")
+	)
+	(wire
+		(pts
+			(xy 139.7 115.57) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1b8f8f-8784-4f12-a48a-d4f165634400")
+	)
+	(wire
+		(pts
+			(xy 59.69 38.1) (xy 59.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5c30d4-88b1-4893-8b9e-f4ae8dcaa279")
+	)
+	(wire
+		(pts
+			(xy 165.1 72.39) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3813a6b4-275f-48e0-bc6e-044c21f05902")
+	)
+	(wire
+		(pts
+			(xy 121.92 77.47) (xy 121.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410d8381-2eaf-4bca-9ada-07e487c2fb44")
+	)
+	(wire
+		(pts
+			(xy 88.9 55.88) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b79596-41a7-4462-9330-348d70b6fa8f")
+	)
+	(wire
+		(pts
+			(xy 68.58 72.39) (xy 74.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43aaaf19-14af-4ead-bf0f-abde6e25cd0f")
+	)
+	(wire
+		(pts
+			(xy 121.92 92.71) (xy 124.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e762c3-f9fb-4001-8ffc-ff3bc9e382cc")
+	)
+	(wire
+		(pts
+			(xy 179.07 92.71) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1f23da-bf08-4036-990e-a210d5216585")
+	)
+	(wire
+		(pts
+			(xy 74.93 73.66) (xy 74.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538e0599-d5fe-4278-b30f-1aa099fa1e03")
+	)
+	(wire
+		(pts
+			(xy 74.93 86.36) (xy 74.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5670c7c8-dfc7-4f75-8a5d-46a9c6b0df59")
+	)
+	(wire
+		(pts
+			(xy 81.28 110.49) (xy 81.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ded68f-7a00-4a11-9172-afbd330d572d")
+	)
+	(wire
+		(pts
+			(xy 121.92 74.93) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56fda004-4a19-4ef3-82e6-5346772fac8a")
+	)
+	(wire
+		(pts
+			(xy 208.28 82.55) (xy 208.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583d2fc3-b712-449b-9af2-dc6650c5eea8")
+	)
+	(wire
+		(pts
+			(xy 147.32 115.57) (xy 147.32 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592acaa4-1d0f-4d2b-aec5-d44b95028144")
+	)
+	(wire
+		(pts
+			(xy 201.93 82.55) (xy 201.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b19450c-2c84-45ec-a8ea-a0bcafddbdf5")
+	)
+	(wire
+		(pts
+			(xy 166.37 85.09) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e93dd9f-7f60-4b88-a2b7-39e239416bb9")
+	)
+	(wire
+		(pts
+			(xy 95.25 72.39) (xy 96.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6167edc3-417b-42b2-8067-38d052686428")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 95.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63250f87-3052-4f9f-bf03-98e259566df9")
+	)
+	(wire
+		(pts
+			(xy 116.84 109.22) (xy 116.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636730f3-72f1-4f2c-9de8-0e268d208d77")
+	)
+	(wire
+		(pts
+			(xy 135.89 57.15) (xy 139.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656d5875-905e-4eed-8c97-dbb48fadbf3b")
+	)
+	(wire
+		(pts
+			(xy 88.9 55.88) (xy 95.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698f6841-f751-48ea-9517-bfa67aec7aa1")
+	)
+	(wire
+		(pts
+			(xy 124.46 86.36) (xy 124.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adc8e85-0d29-4271-b1ac-d865a49e97be")
+	)
+	(wire
+		(pts
+			(xy 95.25 55.88) (xy 95.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726ef4e1-f382-4b65-8458-bd7f63a388bd")
+	)
+	(wire
+		(pts
+			(xy 220.98 67.31) (xy 222.25 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e54221-8b10-4a1c-8401-a73d8f20bb12")
+	)
+	(wire
+		(pts
+			(xy 121.92 82.55) (xy 121.92 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1fa295-289c-4c92-bddb-723aac5879c5")
+	)
+	(wire
+		(pts
+			(xy 121.92 77.47) (xy 124.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf3942c-9693-447e-85e1-406511f4aa25")
+	)
+	(wire
+		(pts
+			(xy 144.78 115.57) (xy 144.78 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82bd978b-80be-4a31-bd6f-d06d284b7986")
+	)
+	(wire
+		(pts
+			(xy 118.11 86.36) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833b21ce-6f9f-4710-b3d1-af3394e89c38")
+	)
+	(wire
+		(pts
+			(xy 167.64 96.52) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857986d8-88cd-41b5-9c90-9fc69dcbcd15")
+	)
+	(wire
+		(pts
+			(xy 208.28 67.31) (xy 208.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8854646d-1c80-4c56-a8fd-b8fdb6b4ab9b")
+	)
+	(wire
+		(pts
+			(xy 201.93 67.31) (xy 208.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "896c3e98-9049-4f62-b35a-e60dca8f6cfa")
+	)
+	(wire
+		(pts
+			(xy 81.28 91.44) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc1ef2d-0df8-468c-abaa-f7561dd73647")
+	)
+	(wire
+		(pts
+			(xy 166.37 82.55) (xy 166.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d087e26-a2e4-488f-acef-343a380e1224")
+	)
+	(wire
+		(pts
+			(xy 116.84 72.39) (xy 118.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9112b46e-e112-4ed8-87d3-b163ebe7cc1e")
+	)
+	(wire
+		(pts
+			(xy 208.28 67.31) (xy 220.98 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91403f54-bff8-4d40-807d-a6af5f290d77")
+	)
+	(wire
+		(pts
+			(xy 181.61 85.09) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937f2dfb-b59c-4242-806c-ad9e80b0f4cf")
+	)
+	(wire
+		(pts
+			(xy 166.37 85.09) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949d0fdc-0e1c-44bd-81f0-efac3364400e")
+	)
+	(wire
+		(pts
+			(xy 116.84 92.71) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ad4440-2c65-4cf8-8aa7-abd7b852e502")
+	)
+	(wire
+		(pts
+			(xy 118.11 72.39) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9687d862-cb22-4a50-b52a-ef1ef7b9c335")
+	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 124.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99096f67-3546-42c4-a5ef-bbaecdf0d7a8")
+	)
+	(wire
+		(pts
+			(xy 144.78 118.11) (xy 147.32 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d391bf5-f01d-422a-b1c6-99b694bb804c")
+	)
+	(wire
+		(pts
+			(xy 109.22 102.87) (xy 109.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6705df-fc8d-44e8-baa1-2947d56d822c")
+	)
+	(wire
+		(pts
+			(xy 165.1 92.71) (xy 179.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09605e6-0d45-4591-a38c-5176d7eb07c4")
+	)
+	(wire
+		(pts
+			(xy 82.55 55.88) (xy 88.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6aa7cf6-04b3-424f-8f9b-7d2bb8f59541")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 166.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ab9cab-a6d4-46c6-87ff-285558e6fe56")
+	)
+	(wire
+		(pts
+			(xy 121.92 80.01) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88ca0ba-7e90-40b8-b230-06e0fae84dee")
+	)
+	(wire
+		(pts
+			(xy 74.93 91.44) (xy 81.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa868bed-b82b-4461-ac79-bab998a7dbd0")
+	)
+	(wire
+		(pts
+			(xy 142.24 115.57) (xy 142.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe33cce-b6e1-457e-9969-6331e4ca59d0")
+	)
+	(wire
+		(pts
+			(xy 142.24 118.11) (xy 144.78 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad18b232-6f72-4b50-a52d-1fd3737e1399")
+	)
+	(wire
+		(pts
+			(xy 167.64 95.25) (xy 165.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02ec5dc-aee7-4a5d-8562-49a429d72d65")
+	)
+	(wire
+		(pts
+			(xy 144.78 118.11) (xy 144.78 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d6711d-ea45-4219-b80c-06d3fb586052")
+	)
+	(wire
+		(pts
+			(xy 220.98 82.55) (xy 220.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b372b108-c839-42a1-ac62-6d218fa5ec45")
+	)
+	(wire
+		(pts
+			(xy 165.1 82.55) (xy 166.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb5a03e-afd9-4794-b797-fdc774bec671")
+	)
+	(wire
+		(pts
+			(xy 208.28 83.82) (xy 220.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be1f434d-0b7e-4308-b85d-fff5d41e67ac")
+	)
+	(wire
+		(pts
+			(xy 121.92 80.01) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c27b99-9201-49e2-a913-9b5dec04c91d")
+	)
+	(wire
+		(pts
+			(xy 201.93 83.82) (xy 208.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbb22a4-5ebb-45b6-b640-a854f411b4bc")
+	)
+	(wire
+		(pts
+			(xy 81.28 91.44) (xy 82.55 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce539944-3505-4404-9fc7-3e270d92520e")
+	)
+	(wire
+		(pts
+			(xy 59.69 35.56) (xy 68.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b3be6f-75d2-440b-9b9d-698a7046d204")
+	)
+	(wire
+		(pts
+			(xy 121.92 72.39) (xy 124.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86b1b00-d5a0-4cc8-89b1-97b373204b9e")
+	)
+	(wire
+		(pts
+			(xy 165.1 77.47) (xy 167.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb38ea68-0042-4ae1-a90f-f2147f28adc7")
+	)
+	(wire
+		(pts
+			(xy 66.04 72.39) (xy 68.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0f9df3-53f9-4773-9ead-c7001aadfb28")
+	)
+	(wire
+		(pts
+			(xy 167.64 74.93) (xy 167.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efafec02-e758-4eb0-9fcf-556a597228a0")
+	)
+	(wire
+		(pts
+			(xy 81.28 90.17) (xy 81.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1123380-e030-4026-a284-63f85617b30b")
+	)
+	(wire
+		(pts
+			(xy 201.93 69.85) (xy 201.93 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bcfa1e-ce78-4083-abae-1e8d67a7fa2f")
+	)
+	(wire
+		(pts
+			(xy 82.55 59.69) (xy 82.55 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9729e1f-3d25-4a5d-bda4-50b822208f92")
+	)
+	(wire
+		(pts
+			(xy 167.64 72.39) (xy 167.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf14c20-64d6-4555-8449-7d65e1c1a75f")
+	)
+	(global_label "FB"
+		(shape output)
+		(at 82.55 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b2e7bed-56b8-41b9-86ce-55e1b68f21a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.8938 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FB"
+		(shape input)
+		(at 139.7 118.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70fa5119-8787-4231-be1e-8102e1e847dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 123.4538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 181.61 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1106740f-1961-4701-8a26-a212e54dc8a3")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 222.25 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5df82bb1-fd9f-4960-9a44-c370fda52929")
+	)
+	(hierarchical_label "Bat_3.3V"
+		(shape output)
+		(at 66.04 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71b7b26a-c5c2-4474-84af-69a2127de74c")
+	)
+	(hierarchical_label "Bat_3.3V"
+		(shape output)
+		(at 116.84 109.22 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bdc5060a-248e-40f6-a2a6-4a2091344a2a")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01243733-dbdb-451c-8834-9fd7feed399a")
+		(property "Reference" "#PWR022"
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83959c32-2fc5-4b15-ab8e-ba555eb972e0")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:GRM188R71A474JA61J")
+		(at 118.11 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01fb2cb4-cf5d-42c7-8f82-e19ac6556888")
+		(property "Reference" "C25"
+			(at 110.998 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.47uF 10V"
+			(at 106.172 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAPC1608X90N"
+			(at 214.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71A474JA61-01A.pdf"
+			(at 314.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Capacitor value 474"
+			(at 118.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 514.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 614.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 714.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 814.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R71A474JA61J"
+			(at 914.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "054fa788-02c6-4244-8de4-5e7f0bf1881b")
+		)
+		(pin "2"
+			(uuid "e90e1482-3150-47b9-a6c0-85f2a9d93d8e")
+		)
+		(instances
+			(project ""
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:KR_EELP41.22-Q1S1-36-A8J8-020-R18")
+		(at 68.58 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ded198-30a5-45d6-ad10-1054cb2d5a48")
+		(property "Reference" "LED2"
+			(at 74.93 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR_LED"
+			(at 74.93 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KREELP4122Q1S136A8J8020R18"
+			(at -25.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://look.ams-osram.com/m/7eda7e8e2ca21691/original/KR-EELP41-22.pdf"
+			(at -125.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 624nm LED Indication - Discrete 1.95V 0603 (1608 Metric)"
+			(at 68.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at -325.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "720-P412Q1S136A8J802"
+			(at -425.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KR-EELP41.22-Q1S1-36-A8J8-020-R18?qs=ZcfC38r4PouTxNZSRl%252Bn6g%3D%3D"
+			(at -525.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ams OSRAM"
+			(at -625.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KR EELP41.22-Q1S1-36-A8J8-020-R18"
+			(at -725.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f75aeab8-7b30-4afb-b14e-56c34fa9dff1")
+		)
+		(pin "1"
+			(uuid "3ca8b3ff-bf76-4e5d-ba4c-c9ee1765e866")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:IHLP2525BDER100M01")
+		(at 96.52 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dd94ad1-fa24-4493-98fa-b4b54cb8c22e")
+		(property "Reference" "L1"
+			(at 106.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "INDPM6965X240N"
+			(at 113.03 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA11/2254165.pdf"
+			(at 113.03 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay IHLP2525BD-01 Series Shielded Wire-wound SMD Inductor 10 uH +/-20% 7A Idc"
+			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.4"
+			(at 113.03 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "70-IHLP2525BDER100M1"
+			(at 113.03 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/IHLP2525BDER100M01?qs=Ii3MhEF6M57xUYSRDLsUoA%3D%3D"
+			(at 113.03 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 113.03 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IHLP2525BDER100M01"
+			(at 113.03 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39d277f5-6961-41cb-96e6-b35de8219a69")
+		)
+		(pin "2"
+			(uuid "655de736-9005-4b5c-bbf4-60a0f713add1")
+		)
+		(instances
+			(project ""
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:GRM21BR61A476ME15L")
+		(at 82.55 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a8ce0f8-d9cc-4b2b-900c-002bd7bedb9e")
+		(property "Reference" "C19"
+			(at 78.994 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF 10V"
+			(at 78.74 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAPC2012X145N"
+			(at 178.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01A.pdf"
+			(at 278.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 47uF 10volts *Derate Voltage/Temp"
+			(at 82.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 478.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM21BR61A476ME5L"
+			(at 578.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
+			(at 678.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 778.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
+			(at 878.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7b0a015-d7be-4f83-aa7c-9776b8a3d1f3")
+		)
+		(pin "2"
+			(uuid "8ff8b131-28a8-4777-89a8-28686b6cfe7a")
+		)
+		(instances
+			(project ""
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd4acaf-3440-4edc-a87d-e0858f980ca7")
+		(property "Reference" "#PWR020"
+			(at 59.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e13c88f-97d6-4e69-9b5a-c7135f9f110c")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "608cc0b1-42c5-4b70-9bfe-2ac4ee6fe28d")
+		(property "Reference" "#PWR023"
+			(at 187.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e16a5e0b-a5c8-490c-b0d9-6be2fc52acc0")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "617bdf99-88b3-44b8-818e-8ed3d343b3d2")
+		(property "Reference" "#PWR029"
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d5f81a6-eb2d-404c-ad23-1f17a0d9b015")
+		)
+		(instances
+			(project ""
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:GRM21BR61A476ME15L")
+		(at 95.25 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "649c455f-bae3-4aad-a040-2cfa5c197ffd")
+		(property "Reference" "C21"
+			(at 92.456 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF 10V"
+			(at 92.456 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAPC2012X145N"
+			(at 191.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01A.pdf"
+			(at 291.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 47uF 10volts *Derate Voltage/Temp"
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 491.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM21BR61A476ME5L"
+			(at 591.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
+			(at 691.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 791.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
+			(at 891.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efb92b3b-9ef6-446e-b33e-22209737fa9f")
+		)
+		(pin "2"
+			(uuid "182f3b68-317f-4345-b512-e3710566f743")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73868663-4a81-4da8-b198-dfa6d9cbfea4")
+		(property "Reference" "#PWR024"
+			(at 208.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b771987d-8633-4fd4-809d-035bd3f5c338")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:LMK107B7105KA-T")
+		(at 109.22 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "765e5d0e-4494-4be7-90d9-596f18e26367")
+		(property "Reference" "C26"
+			(at 102.108 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 10V"
+			(at 100.076 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPC1608X90N"
+			(at 13.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=LMK107B7105KA-T%20%20&u=M"
+			(at -86.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Taiyo Yuden LMK107B7105KA-T 1uF Multilayer Ceramic Capacitor MLCC 10V dc +/-10% Tolerance SMD"
+			(at 109.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -286.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-LMK107B7105KA-T"
+			(at -386.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/LMK107B7105KA-T?qs=PzICbMaShUcSYTxLDnqe3A%3D%3D"
+			(at -486.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAIYO YUDEN"
+			(at -586.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LMK107B7105KA-T"
+			(at -686.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51f4d35c-6524-41d6-abc8-7857f8b4e3d9")
+		)
+		(pin "1"
+			(uuid "47793a23-b6e7-4596-8130-c483e5a55756")
+		)
+		(instances
+			(project ""
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82bea8f8-4884-4c2f-975b-000a041f78d5")
+		(property "Reference" "#PWR026"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32164335-fd2e-4237-b3f8-e09d31d5fe92")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "860ca32f-52ae-4bde-a5e4-df13c93fafa4")
+		(property "Reference" "#PWR028"
+			(at 121.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4273a57d-844f-450b-be3f-78cc9bec0790")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:AC0603KPX7R9BB473")
+		(at 201.93 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86157038-c47f-423c-bcdd-777e153c1567")
+		(property "Reference" "C18"
+			(at 194.564 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.047 50V"
+			(at 191.516 78.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPC1608X90N"
+			(at 105.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-AC_NP0X7RX7S_6.3V-to-2KV_19.pdf"
+			(at 5.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.047uF X7R 0603 10% AEC-Q200"
+			(at 201.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -194.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC603KPX7R9BB473"
+			(at -294.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/AC0603KPX7R9BB473?qs=A6eO%252BMLsxmQR%252BGuuoVGLIQ%3D%3D"
+			(at -394.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at -494.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603KPX7R9BB473"
+			(at -594.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76a07e84-6e0a-482b-8dc3-1b90fcd4e207")
+		)
+		(pin "1"
+			(uuid "d5254ba3-d925-4228-bb2b-869777682446")
+		)
+		(instances
+			(project ""
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:GRM21BR61A476ME15L")
+		(at 88.9 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87fa500d-00d2-439d-826c-d66eb7a0a2d2")
+		(property "Reference" "C20"
+			(at 86.614 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF 10V"
+			(at 86.36 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAPC2012X145N"
+			(at 185.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01A.pdf"
+			(at 285.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 47uF 10volts *Derate Voltage/Temp"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 485.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM21BR61A476ME5L"
+			(at 585.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
+			(at 685.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 785.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
+			(at 885.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90995d99-cdb7-4feb-be5f-4787485ef527")
+		)
+		(pin "2"
+			(uuid "da8fdc47-c70f-4dc1-9820-747e0e32fe32")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b70f2a5a-7d1d-4ec9-98cb-eb3bc1e82d56")
+		(property "Reference" "#PWR027"
+			(at 81.28 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2e6b4a9-0a4a-417c-bc12-65f155575c49")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:12065D475MAT2A")
+		(at 208.28 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c076595c-9d14-4b1f-9a04-2bb0c79ecc5c")
+		(property "Reference" "C22"
+			(at 209.296 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF 50V"
+			(at 209.042 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAPC3216X229N"
+			(at 304.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf"
+			(at 404.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Dielectric for Ceramic Capacitors  EIA Class II Dielectric  Temperature variation of capacitance is within +/-15% from -55C to +85C  Well suited for decoupling and filtering applications  Available in High Capacitance values (up to 100uF)"
+			(at 208.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.29"
+			(at 604.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-12065D475MAT2A"
+			(at 704.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-AVX/12065D475MAT2A?qs=ZBeOGGPQgEE6l2JlGqsrwg%3D%3D"
+			(at 804.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 904.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "12065D475MAT2A"
+			(at 1004.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c62b80c8-7631-4ebf-ae0c-548dc10837c9")
+		)
+		(pin "1"
+			(uuid "a381567f-7da6-4317-97f2-131cc3e32e48")
+		)
+		(instances
+			(project ""
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:12065D475MAT2A")
+		(at 220.98 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5bf25f3-dea9-4d43-8009-f529b5b0f470")
+		(property "Reference" "C23"
+			(at 221.488 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF 50V"
+			(at 221.234 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAPC3216X229N"
+			(at 317.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf"
+			(at 417.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Dielectric for Ceramic Capacitors  EIA Class II Dielectric  Temperature variation of capacitance is within +/-15% from -55C to +85C  Well suited for decoupling and filtering applications  Available in High Capacitance values (up to 100uF)"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.29"
+			(at 617.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-12065D475MAT2A"
+			(at 717.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-AVX/12065D475MAT2A?qs=ZBeOGGPQgEE6l2JlGqsrwg%3D%3D"
+			(at 817.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 917.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "12065D475MAT2A"
+			(at 1017.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97daa784-83eb-4618-a9ec-a0abe53114a8")
+		)
+		(pin "1"
+			(uuid "8e8a6cba-ad5c-4e6a-bcb5-d63d3bed5d40")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TNPW040243K7BEED")
+		(at 81.28 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7a6f202-00dc-4574-bd58-038416941c71")
+		(property "Reference" "R11"
+			(at 78.994 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "43.7k"
+			(at 81.28 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 177.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/tnpw040243k7beed/vishay?region=nac"
+			(at 277.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Res Thin Film 0402 43.7K Ohm 0.1% 0.063W(1/16W) +/-25ppm/C Sulfur Resistant Pad SMD Automotive Medical T/R"
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 477.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-TNPW040243K7BEED"
+			(at 577.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/TNPW040243K7BEED?qs=FzhAKWsHbnC1tqeS1bvdEg%3D%3D"
+			(at 677.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 777.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TNPW040243K7BEED"
+			(at 877.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca4354f1-99d3-4e84-a157-56045b98249b")
+		)
+		(pin "2"
+			(uuid "b2169bf7-dd19-4216-9723-8e57f0bdb75e")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:LM76003RNPR")
+		(at 124.46 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dabb7744-35c3-466d-9690-07b833f16fc5")
+		(property "Reference" "IC3"
+			(at 149.4633 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM76003RNPR"
+			(at 149.4633 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LM76003RNPR"
+			(at 161.29 159.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/LM76003"
+			(at 161.29 259.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5V to 60V, 3.5A Synchronous Step-Down Voltage Converter"
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 161.29 459.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LM76003RNPR"
+			(at 161.29 559.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM76003RNPR?qs=j%252B1pi9TdxUZmZBWKnG1O7Q%3D%3D"
+			(at 161.29 659.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 161.29 759.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM76003RNPR"
+			(at 161.29 859.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "4e84ff15-770e-424d-bfe1-bb0c0418c8e7")
+		)
+		(pin "21"
+			(uuid "d4c06d22-03cc-4b21-a2a3-c6b5921f03d5")
+		)
+		(pin "13"
+			(uuid "f114d3eb-e333-4fd7-99ab-4b4b8f631d86")
+		)
+		(pin "3"
+			(uuid "854059b2-36e0-4681-a457-22edc7b823fb")
+		)
+		(pin "16"
+			(uuid "5b3f0e17-54c1-4b12-9220-5208f5a8e4be")
+		)
+		(pin "27"
+			(uuid "6f237482-c303-477f-a235-32b9c1348b88")
+		)
+		(pin "12"
+			(uuid "6362b057-d9de-4e86-938c-48e857b9c8b6")
+		)
+		(pin "1"
+			(uuid "3282133c-251e-4829-9b45-9e0d68b6045b")
+		)
+		(pin "9"
+			(uuid "1332f351-4a4e-403d-8cdf-8f0915305be4")
+		)
+		(pin "10"
+			(uuid "740da6e3-ba5d-4d78-b2e4-822a363616cb")
+		)
+		(pin "8"
+			(uuid "0f882b0e-f3fe-45de-a45f-4893fc704bb9")
+		)
+		(pin "24"
+			(uuid "449ad7d2-2823-41c9-8ece-4a1fd3c3a440")
+		)
+		(pin "28"
+			(uuid "8631825d-dfed-473a-bc0b-5a437a044b3e")
+		)
+		(pin "30"
+			(uuid "e4713df4-6b9e-4a13-9445-73d20fd1fa1d")
+		)
+		(pin "15"
+			(uuid "be6c3dd8-d672-4829-8c6a-462d60e914ff")
+		)
+		(pin "18"
+			(uuid "eee5f428-260b-4b76-8388-061786dcf1ac")
+		)
+		(pin "6"
+			(uuid "66c096b2-1a96-45fe-b1d7-ed6bda765e55")
+		)
+		(pin "26"
+			(uuid "35544763-8e89-4538-a214-692edc329876")
+		)
+		(pin "19"
+			(uuid "bd710f45-8278-450d-b082-bcd7eff80cf8")
+		)
+		(pin "7"
+			(uuid "9f32224d-8aad-4a63-b153-69f8ebcdad15")
+		)
+		(pin "31"
+			(uuid "531df5af-70af-4ba7-8409-926e6bfc18f8")
+		)
+		(pin "4"
+			(uuid "58a35b64-17a9-46e8-9a93-493b76037b0d")
+		)
+		(pin "20"
+			(uuid "36988a91-c70f-4552-a0e6-6ad6ea065f1b")
+		)
+		(pin "2"
+			(uuid "78370564-4863-459c-aa56-0443756f1993")
+		)
+		(pin "5"
+			(uuid "0911c44f-98d7-4fc9-9b01-9cbab70090c2")
+		)
+		(pin "11"
+			(uuid "2a186eba-6c90-42a7-b314-6c91bb49fadc")
+		)
+		(pin "22"
+			(uuid "a85621a7-46bb-46f8-81dd-baaf98e71c31")
+		)
+		(pin "23"
+			(uuid "4f01004b-e1df-493f-8ef8-3d36884aeffa")
+		)
+		(pin "14"
+			(uuid "9f1ef6fb-ac15-49e0-9fef-b771aca128c9")
+		)
+		(pin "25"
+			(uuid "e1db3b22-3896-4794-97e6-a97fd0cc85b1")
+		)
+		(pin "17"
+			(uuid "38aa1d47-3acf-42f5-a306-d578f77634ab")
+		)
+		(instances
+			(project ""
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:CRCW0805100KJNEA")
+		(at 81.28 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de509c79-c674-40b8-b9f4-e8fd19c96396")
+		(property "Reference" "R10"
+			(at 78.74 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 81.28 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC2012X50N"
+			(at 177.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 277.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/8watt 100Kohms 200ppm"
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 477.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805J-100K-E3"
+			(at 577.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100KJNEA?qs=LOX6nxTstiZZKnHXqjj9tA%3D%3D"
+			(at 677.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 777.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0805100KJNEA"
+			(at 877.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7feaaa8d-efac-4e9a-8546-dcaf990f00e8")
+		)
+		(pin "2"
+			(uuid "b9a8b7fe-26ef-4210-a648-0d8e7f7b90eb")
+		)
+		(instances
+			(project ""
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9bad6c9-e242-4488-bf36-dd7031f1f6ab")
+		(property "Reference" "#PWR021"
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b3473d7-6cda-4517-a29a-ba83d07836c9")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:MCU08050C3300FP500")
+		(at 68.58 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef2995d0-bafd-4076-bb26-801a56585b2e")
+		(property "Reference" "R9"
+			(at 71.12 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "330R"
+			(at 71.12 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RESC2012X55N"
+			(at 164.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
+			(at 264.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 330 OHM 1% 1/5W 0805"
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 464.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "594-MCU08050C3300FP5"
+			(at 564.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCU08050C3300FP500?qs=hjSuqQECij%252Bru8%252BZTqcyAw%3D%3D"
+			(at 664.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 764.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCU08050C3300FP500"
+			(at 864.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95cc097c-9b3b-4873-848d-194faf0c83c0")
+		)
+		(pin "2"
+			(uuid "b12f2af9-3200-4b9e-9e5b-0a7df1b1697e")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f35d2ee1-3d22-4f60-a2f0-8824bd938f7a")
+		(property "Reference" "#PWR025"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aad2e9d-78c7-49de-b169-cd3b8a82bab2")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:LMK107B7105KA-T")
+		(at 121.92 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff5df31d-c860-4fcf-bdce-5dc2866a5046")
+		(property "Reference" "C27"
+			(at 114.808 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 10V"
+			(at 112.776 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPC1608X90N"
+			(at 25.73 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=LMK107B7105KA-T%20%20&u=M"
+			(at -74.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Taiyo Yuden LMK107B7105KA-T 1uF Multilayer Ceramic Capacitor MLCC 10V dc +/-10% Tolerance SMD"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -274.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-LMK107B7105KA-T"
+			(at -374.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/LMK107B7105KA-T?qs=PzICbMaShUcSYTxLDnqe3A%3D%3D"
+			(at -474.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAIYO YUDEN"
+			(at -574.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LMK107B7105KA-T"
+			(at -674.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c114fd15-916b-416f-9987-cdaf586cf5da")
+		)
+		(pin "1"
+			(uuid "a2b791f2-525a-47b0-b24d-9b9263e7f46b")
+		)
+		(instances
+			(project "BLDC Controller"
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:C0603C103K9RACTU")
+		(at 74.93 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff5ec7c4-c356-43b2-be56-bb03898b0038")
+		(property "Reference" "C24"
+			(at 67.564 79.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.01uF 6.3V"
+			(at 61.976 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "C0603"
+			(at 171.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 271.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Comm X7R, Ceramic, 0.01 uF, 10%, 6.3 VDC, 15.75 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 5 % , 10 GOhms, 4.8 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 80"
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.87"
+			(at 471.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C103K9R"
+			(at 571.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C103K9RACTU?qs=r%2FVmNO8Tjq6U7vsVOlbauA%3D%3D"
+			(at 671.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 771.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C103K9RACTU"
+			(at 871.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cda25967-804c-40f6-a7a9-a0ed734b15f4")
+		)
+		(pin "1"
+			(uuid "269c93fd-37c6-4aff-91d9-bbe63e7d03c1")
+		)
+		(instances
+			(project ""
+				(path "/473f6d91-eb15-49f0-aa00-e4212556f75e/2d67fa07-21e3-4ffe-8344-b0bd4acd460b"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
