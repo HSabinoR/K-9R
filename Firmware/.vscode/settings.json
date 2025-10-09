@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.ino": "cpp",
+        "tcan4550_spi.h": "c",
+        "tcan4x5x_reg.h": "c"
+    }
+}
