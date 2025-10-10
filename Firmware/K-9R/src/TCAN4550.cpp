@@ -1,0 +1,6 @@
+#include "TCAN4550.h"
+#include <TCAN4550_SPI.h>
+
+bool WDT_Enable() {
+    TCAN4550_SPI::modifyRegister(REG_DEV_MODES_AND_PINS, REG_BITS_DEVICE_MODE_WDT_MASK, REG_BITS_DEVICE_MODE_WDT_EN);
+}

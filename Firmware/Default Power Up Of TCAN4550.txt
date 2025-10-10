@@ -1,0 +1,28 @@
+The power up default of the Modes of Operation and Pin Configuration Register (0x0800) is 0xC8000468 or in Binary: 
+1100		1000		0000		0000		0000		0100		0110		1000
+31,30,29,28 	27,26,25,24	23,22,21,20	19,18,17,16	15,14,13,12	11,10,9,8	7,6,5,4		3,2,1,0
+
+Bit	    |	Field		        |   Description
+31:30	|	WAKE_CONFIG	        |	Set to 11 (Bidirectional - Either Edge)
+29:28	|	WD_TIMER	        |	Set to 00 (60ms)
+27	    |	CLK_REF		        |	Set to 1 (40 MHz)	
+26:24	|	RSVD		        |	Reserved
+23:22	|	GPIO2_CONFIG	    |	Set to 00 (No Action)
+21	    |	TEST_MODE_EN	    |	Set to 0 (Disabled)
+20	    |	RSVD		        | 	Reserved
+19	    |	nWKRQ_VOLTAGE	    |	Set to 0 (Internal Voltage Rail)
+18	    |	WD_BIT_SET	        |	Writing a 1 resets the WD timer and then the bit clears(returns to 0)
+17:16	|	WD_ACTION	        |	Set to 00 (Set interrupt flag, and if a pin is configure to reflect WD output as an interrupt the pin will show a low
+15:14	|	GPIO1_CONFIG	    |	Set to 00 (GPO)
+13	    |	FAIL_SAFE_EN	    |	Set to 0 (Disabled)
+12	    |	RSVD		        |	Reserved
+11:10   |	GPIO1_GPO_CONFIG    |	Set to 01 (MCAN_INT 1 (Active Low))
+9	    |	INH_DIS		        |	Set to 0 (Disabled)
+8	    |	nWKRQ_CONFIG	    |	Set to 0 (Mirrors INH Function)
+7:6	    |	MODE_SEL	        |	Set to 01  (Standby)
+5	    |	RSVD		        |	Set to 0 (If this bit is written to it must be a 1))
+4	    |	RSVD		        |	Reserved
+3	    |	WD_EN		        |	Set to 1 (Enabled)
+2	    |	DEVICE_RESET	    |	Set to 0 (Current Configuration (If 1, then device resets to default settings. Same function as RST pin))
+1	    |	SWE_DIS		        |	Set to 0 (Enabled) (his disables the device from starting the four-minute timer when coming out of sleep mode on a wake event. If this is enabled, a SPI read or write must take place within this four minute window or the device will go back to sleep. This does not disable the function for initial power on or in case of a power on reset.)
+0	    |	TEST_MODE_CONFIG    |	Set to 0 (Phy Test with TXD/RXD_INT_PHY and EN_INT are mapped to external pins)
